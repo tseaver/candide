@@ -2,7 +2,7 @@ from pyramid.config import Configurator
 
 from substanced import root_factory
 
-def main(global_config, **settings):
+def main(global_config, **settings): #pragma NO COVER
     """ This function returns a Pyramid WSGI application.
     """
     config = Configurator(settings=settings, root_factory=root_factory)

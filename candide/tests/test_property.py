@@ -1,5 +1,6 @@
 import unittest
 
+
 class CandidePropertysheetTests(unittest.TestCase):
 
     def setUp(self):

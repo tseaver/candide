@@ -7,6 +7,6 @@ class CandidePropertysheet(PropertySheet):
     def schema(self):
         type_name = self.request.registry.content.typeof(self.context)
         ttw = find_service(self.context, 'schemas', type_name)
-        if ttw is None:
-            return ()
-        return ttw.getSchema()
+        if ttw is not None:
+            return ttw.getSchema()
+        return ()
