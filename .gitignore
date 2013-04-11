@@ -3,3 +3,4 @@ blobs
 *.pyc
 tmp
 .coverage
+Data.fs*
