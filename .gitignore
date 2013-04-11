@@ -2,3 +2,4 @@ blobs
 *.egg-info
 *.pyc
 tmp
+.coverage
