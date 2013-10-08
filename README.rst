@@ -1,10 +1,10 @@
 ``candide`` README
 ==================
 
-This application demonstrates definiing ``colander`` scheams as
+This application demonstrates defining ``colander`` scheams as
 through-the-web (TWW) objects, managed in `SubstanceD <http://substanced.net>`_
 
-Definiing Schemas
+Defining Schemas
 -----------------
 
 In the SubstanceD management interface (SDI), visit the ``schemas`` service,
