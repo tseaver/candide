@@ -12,8 +12,25 @@ found in the ZODB root.  For each content type which should have a TTW schema,
 add a ``TTWSchema`` object, naming it for the content type (e.g., 'Document').
 
 Edit the 'yaml' property, using the `sweetpotatopie documentation
-<https://github.com/Pylons/sweetpotatopie/blob/master/doc/narrative.rst>_
-as a guide.
+<https://github.com/Pylons/sweetpotatopie/blob/master/doc/narrative.rst>`_
+as a guide.  E.g.::
+
+   !schema
+     children:
+       - !field.string
+         name: title
+       - !field.integer
+         name: rating
+       - !field.float
+         name: weight
+       - !field.decimal
+         name: price
+       - !field.boolean
+         name: active
+       - !field.datetime
+         name: expires
+       - !field.date
+         name: joined
 
 Associating Schemas with Types
 ------------------------------
