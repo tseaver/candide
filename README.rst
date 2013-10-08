@@ -39,8 +39,7 @@ Associating Schemas with Types
 ------------------------------
 
 Any type which should use a TTW schema needs (for now) to add a propertysheet
-to its SubstanceD `@content` registration.  E.g., for the example 'Document' 
-type in this package::
+to its SubstanceD `@content` registration.  E.g.::
 
 
     from candide.property import CandidePropertysheet
@@ -48,12 +47,15 @@ type in this package::
     from substanced.content import content
 
     @content(
-        'Document',
-        add_view='add_document',
+        'MyType',
+        add_view='add_my_type',
         propertysheets = (
             # others...
             ('TTW', CandidePropertysheet), 
         )
     )
-    class Document(Persistent):
+    class MyType(Persistent):
         pass
+
+
+This package defines a 'Document' type which enables such a propertysheet.
