@@ -33,7 +33,7 @@ class DocumentPropertySheet(PropertySheet):
     add_view='add_document', 
     propertysheets = (
         ('Basic', DocumentPropertySheet),
-        ( 'Custom', CandidePropertysheet),
+        ('Custom', CandidePropertysheet),
         ),
     )
 class Document(Persistent):
