@@ -1,11 +1,10 @@
 ``candide`` README
 ==================
 
-This application demonstrates defining ``colander`` scheams as
+This application demonstrates defining ``colander`` schemas as
 through-the-web (TWW) objects, managed in `SubstanceD <http://substanced.net>`_
 Schema definitions are managed as `YAML <http://yaml.org>`_, using the
-bindings defined in `sweetpotatopie
-<https://github.com/Pylons/sweetpotatopie/>`_.
+bindings defined in `sweetpotatopie <https://github.com/Pylons/sweetpotatopie/>`_.
 
 Defining Schemas
 -----------------
